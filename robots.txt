@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /admin
+Disallow: /api/
+Disallow: /api
+Disallow: /*?s=
+Disallow: /*?search=
+Disallow: /*?q=
+Disallow: /search?
+Disallow: /search/
+
+Crawl-delay: 1
+
+Sitemap: https://Rain Drop/sitemap.xml

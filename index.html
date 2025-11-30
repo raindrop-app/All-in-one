@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<script src="main.js" defer></script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="index,follow,max-snippet:150,max-image-preview:large" name="robots"/>
+<meta content="Explore digital cartography and knowledge mapping. Rain Drop helps you map the landscape of thought through innovative information architecture and visual thinking tools." name="description"/>
+<title>Rain Drop - Digital Cartography &amp; Knowledge Mapping</title>
+<meta content="website" property="og:type"/>
+<meta content="Rain Drop - Digital Cartography &amp; Knowledge Mapping" property="og:title"/>
+<meta content="Explore digital cartography and knowledge mapping. Rain Drop helps you map the landscape of thought through innovative information architecture and visual thinking tools." property="og:description"/>
+<meta content="https://Rain Drop" property="og:url"/>
+<meta content="https://Rain Drop/og-image.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Rain Drop - Digital Cartography &amp; Knowledge Mapping" name="twitter:title"/>
+<meta content="Explore digital cartography and knowledge mapping. Rain Drop helps you map the landscape of thought through innovative information architecture and visual thinking tools." name="twitter:description"/>
+<meta content="https://Rain Drop/twitter-image.jpg" name="twitter:image"/>
+<link href="https://Rain Drop" rel="canonical"/>
+<link href="favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=DM+Sans:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="#A8C7E7" name="theme-color"/>
+<meta content="telephone=no" name="format-detection"/>
+<link href="https://cdn.jsdelivr.net" rel="dns-prefetch"/>
+<link href="https://fonts.googleapis.com" rel="dns-prefetch"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Rain Drop",
+  "url": "https://Rain Drop",
+  "description": "Digital Cartography: Mapping the Landscape of Thought",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://Rain Drop/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Rain Drop",
+  "url": "https://Rain Drop",
+  "description": "Digital Cartography: Mapping the Landscape of Thought",
+  "logo": "https://Rain Drop/logo.png",
+  "foundingDate": "2025",
+  "keywords": "digital cartography, knowledge mapping, thought architecture, information flow, raindrop, raindrop io"
+}
+</script>
+<style>
+:root {
+  --bs-body-bg: #FAFBFC;
+  --bs-body-color: #2C3E50;
+  --bs-primary: #A8C7E7;
+  --bs-secondary: #D4B5E8;
+  --bs-success: #B8E6D5;
+  --bs-border-color: #E8ECEF;
+  --bs-border-radius: 12px;
+  --bs-border-radius-sm: 8px;
+  --bs-border-radius-lg: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  color: #2C3E50;
+  background-color: #FAFBFC;
+  background-image: 
+    linear-gradient(0deg, #E8ECEF 1px, transparent 1px),
+    linear-gradient(90deg, #E8ECEF 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: -1px -1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Sans', 'Inter', sans-serif;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
+.card {
+  background: #FFFFFF;
+  border: 1px solid #E8ECEF;
+  border-radius: 12px;
+  box-shadow: 
+    0 2px 8px rgba(44, 62, 80, 0.04),
+    0 1px 2px rgba(44, 62, 80, 0.06);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 8px 24px rgba(168, 199, 231, 0.15),
+    0 4px 8px rgba(44, 62, 80, 0.08),
+    0 0 0 1px rgba(168, 199, 231, 0.2);
+  border-color: #A8C7E7;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #A8C7E7 0%, #9BB8D9 100%);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 8px rgba(168, 199, 231, 0.25);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 
+    0 4px 16px rgba(168, 199, 231, 0.35),
+    0 0 0 3px rgba(168, 199, 231, 0.15);
+  background: linear-gradient(135deg, #9BB8D9 0%, #8EAAC8 100%);
+}
+
+.btn-outline-primary {
+  background: transparent;
+  color: #6B7C8C;
+  border: 1px solid #DFE3E8;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.btn-outline-primary:hover {
+  background: #FAFBFC;
+  border-color: #A8C7E7;
+  color: #2C3E50;
+  box-shadow: 0 0 0 3px rgba(168, 199, 231, 0.08);
+}
+
+a {
+  color: #6B7C8C;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #A8C7E7;
+  border-bottom-color: rgba(168, 199, 231, 0.4);
+}
+
+:focus-visible {
+  outline: 2px solid #A8C7E7;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 0.9rem;
+    background-image: none;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.35rem;
+  }
+  
+  h3 {
+    font-size: 1.125rem;
+  }
+  
+  .card {
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.06);
+  }
+}
+
+img {
+  opacity: 1 !important;
+  display: block !important;
+  visibility: visible !important;
+}
+</style>
+</head>
+<body hidden style="display: flex; flex-direction: column; min-height: 100vh;">
+<div id="cookie-consent-popup" style="position: fixed; bottom: 0; left: 0; right: 0; background: #FFFFFF; border-top: 1px solid #E8ECEF; box-shadow: 0 -4px 24px rgba(44, 62, 80, 0.12), 0 -2px 8px rgba(44, 62, 80, 0.08); z-index: 9999; display: none; animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);">
+<div style="max-width: 1200px; margin: 0 auto; padding: 24px;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px;">
+<div style="flex: 1; min-width: 280px;">
+<h3 style="font-family: 'DM Sans', 'Inter', sans-serif; font-size: 1.25rem; font-weight: 500; color: #2C3E50; margin: 0 0 8px 0; letter-spacing: 0;">Cookie Preferences</h3>
+<p style="font-family: 'Inter', sans-serif; font-size: 0.875rem; font-weight: 400; color: #6B7C8C; line-height: 1.5; letter-spacing: 0.02em; margin: 0;">We use necessary technical storage to enable core website functionality and enhance your browsing experience. Your IP address is anonymized for privacy protection. By accepting, you consent to data processing as described in our<a href="privacy-policy.html" style="color: #A8C7E7; text-decoration: none; border-bottom: 1px solid rgba(168, 199, 231, 0.4); transition: all 0.2s ease;">Privacy Policy</a>.
+        </p>
+<p style="font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; font-weight: 400; color: #9BA8B5; margin: 8px 0 0 0; letter-spacing: 0.02em;">
+<i class="far fa-clock" style="margin-right: 4px;"></i>
+<span id="consent-timestamp"></span>
+</p>
+</div>
+<div style="display: flex; gap: 12px; flex-wrap: wrap;">
+<button id="cookie-decline" style="background: transparent; color: #6B7C8C; border: 1px solid #DFE3E8; border-radius: 8px; padding: 12px 24px; font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 500; letter-spacing: 0.02em; cursor: pointer; transition: all 0.25s ease; white-space: nowrap;">
+          Decline
+        </button>
+<button id="cookie-accept" style="background: linear-gradient(135deg, #A8C7E7 0%, #9BB8D9 100%); color: #FFFFFF; border: none; border-radius: 8px; padding: 12px 24px; font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 500; letter-spacing: 0.02em; box-shadow: 0 2px 8px rgba(168, 199, 231, 0.25); cursor: pointer; transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); white-space: nowrap;">
+          Accept All
+        </button>
+</div>
+</div>
+</div>
+</div>
+<style>
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#cookie-decline:hover {
+  background: #FAFBFC;
+  border-color: #A8C7E7;
+  color: #2C3E50;
+  box-shadow: 0 0 0 3px rgba(168, 199, 231, 0.08);
+}
+
+#cookie-accept:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(168, 199, 231, 0.35), 0 0 0 3px rgba(168, 199, 231, 0.15);
+  background: linear-gradient(135deg, #9BB8D9 0%, #8EAAC8 100%);
+}
+
+#cookie-decline:focus-visible,
+#cookie-accept:focus-visible {
+  outline: 2px solid #A8C7E7;
+  outline-offset: 2px;
+}
+
+@media (max-width: 576px) {
+  #cookie-consent-popup > div {
+    padding: 16px;
+  }
+  
+  #cookie-consent-popup h3 {
+    font-size: 1.125rem;
+  }
+  
+  #cookie-consent-popup p {
+    font-size: 0.8125rem;
+  }
+  
+  #cookie-consent-popup button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 0.9375rem;
+  }
+}
+</style>
+<script>
+(function() {
+  'use strict';
+  
+  // Set consent timestamp
+  const timestampElement = document.getElementById('consent-timestamp');
+  if (timestampElement) {
+    const now = new Date();
+    const formattedDate = now.toLocaleDateString('en-US', { 
+      year: 'numeric', 
+      month: 'short', 
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+    timestampElement.textContent = formattedDate;
+  }
+  
+  // Function to load analytics scripts
+  function loadAnalytics() {
+    // Google Analytics 4 with IP anonymization
+    const gaScript = document.createElement('script');
+    gaScript.async = true;
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+    document.head.appendChild(gaScript);
+    
+    gaScript.onload = function() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', {
+        'anonymize_ip': true,
+        'cookie_flags': 'SameSite=None;Secure'
+      });
+    };
+    
+    // Facebook Pixel
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_PIXEL_ID');
+    fbq('track', 'PageView');
+  }
+  
+  // Main consent logic
+  document.addEventListener('DOMContentLoaded', function() {
+    const popup = document.getElementById('cookie-consent-popup');
+    if (!popup) return;
+    
+    const consentStatus = localStorage.getItem('cookie_consent');
+    const consentTimestamp = localStorage.getItem('cookie_consent_timestamp');
+    
+    // If consent already exists, handle accordingly
+    if (consentStatus) {
+      popup.remove();
+      
+      // Load analytics if previously accepted
+      if (consentStatus === 'accepted') {
+        loadAnalytics();
+      }
+      return;
+    }
+    
+    // Show popup only if no consent saved
+    popup.style.display = 'block';
+    
+    // Accept button handler
+    const acceptButton = document.getElementById('cookie-accept');
+    if (acceptButton) {
+      acceptButton.addEventListener('click', function() {
+        const timestamp = new Date().toISOString();
+        localStorage.setItem('cookie_consent', 'accepted');
+        localStorage.setItem('cookie_consent_timestamp', timestamp);
+        
+        // Remove popup from DOM
+        popup.remove();
+        
+        // Load analytics scripts
+        loadAnalytics();
+      });
+    }
+    
+    // Decline button handler
+    const declineButton = document.getElementById('cookie-decline');
+    if (declineButton) {
+      declineButton.addEventListener('click', function() {
+        const timestamp = new Date().toISOString();
+        localStorage.setItem('cookie_consent', 'declined');
+        localStorage.setItem('cookie_consent_timestamp', timestamp);
+        
+        // Remove popup from DOM
+        popup.remove();
+      });
+    }
+  });
+})();
+</script>
+<div style="flex: 1;">
+<header>
+<header>
+<style>
+        :root {
+            --bg-base: #FAFBFC;
+            --surface-white: #FFFFFF;
+            --primary-accent: #A8C7E7;
+            --secondary-accent: #D4B5E8;
+            --tertiary-accent: #B8E6D5;
+            --grid-lines: #E8ECEF;
+            --dividers: #DFE3E8;
+            --text-primary: #2C3E50;
+            --text-secondary: #6B7C8C;
+            --text-tertiary: #9BA8B5;
+        }
+
+        .header-container {
+            background: var(--surface-white);
+            border-bottom: 1px solid var(--grid-lines);
+            box-shadow: 0 2px 8px rgba(44, 62, 80, 0.04);
+            position: relative;
+            z-index: 1000;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .top-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0;
+            gap: 24px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .logo-container:hover {
+            transform: translateY(-1px);
+        }
+
+        .logo-image {
+            max-height: 64px;
+            width: auto;
+            display: block;
+        }
+
+        .site-title {
+            font-family: 'DM Sans', 'Inter', sans-serif;
+            font-size: 2rem;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin: 0;
+            transition: color 0.2s ease;
+        }
+
+        .logo-container:hover .site-title {
+            color: var(--primary-accent);
+        }
+
+        .nav-toggle {
+            display: none;
+            background: transparent;
+            border: 1px solid var(--dividers);
+            border-radius: 8px;
+            padding: 12px 16px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            color: var(--text-secondary);
+            font-size: 1.25rem;
+            z-index: 1002;
+            position: relative;
+        }
+
+        .nav-toggle:hover {
+            background: var(--bg-base);
+            border-color: var(--primary-accent);
+            color: var(--text-primary);
+            box-shadow: 0 0 0 3px rgba(168, 199, 231, 0.08);
+        }
+
+        .nav-toggle:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(168, 199, 231, 0.3);
+        }
+
+        .main-nav {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-link {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            transition: all 0.25s ease;
+            position: relative;
+            white-space: nowrap;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 8px;
+            left: 20px;
+            right: 20px;
+            height: 1px;
+            background: var(--primary-accent);
+            transform: scaleX(0);
+            transition: transform 0.25s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--text-primary);
+            background: var(--bg-base);
+        }
+
+        .nav-link:hover::after {
+            transform: scaleX(1);
+        }
+
+        .nav-link.active {
+            color: var(--text-primary);
+            background: linear-gradient(135deg, rgba(168, 199, 231, 0.1) 0%, rgba(168, 199, 231, 0.05) 100%);
+            box-shadow: 0 0 0 1px rgba(168, 199, 231, 0.2);
+        }
+
+        .breadcrumb-container {
+            padding: 16px 0;
+            border-top: 1px solid var(--grid-lines);
+        }
+
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 0.875rem;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+        }
+
+        .breadcrumb-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-tertiary);
+        }
+
+        .breadcrumb-item a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .breadcrumb-item a:hover {
+            color: var(--primary-accent);
+        }
+
+        .breadcrumb-item.active {
+            color: var(--text-primary);
+        }
+
+        .breadcrumb-separator {
+            color: var(--text-tertiary);
+            font-size: 0.75rem;
+        }
+
+        @media (max-width: 992px) {
+            .nav-toggle {
+                display: block;
+            }
+
+            .main-nav {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 280px;
+                height: 100vh;
+                background: var(--surface-white);
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0;
+                padding: 80px 24px 24px;
+                box-shadow: -4px 0 24px rgba(44, 62, 80, 0.1);
+                transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                z-index: 1001;
+                overflow-y: auto;
+            }
+
+            .main-nav.active {
+                right: 0;
+            }
+
+            .nav-link {
+                padding: 16px 20px;
+                border-bottom: 1px solid var(--grid-lines);
+            }
+
+            .nav-link::after {
+                display: none;
+            }
+
+            .nav-close {
+                position: absolute;
+                top: 20px;
+                right: 24px;
+                background: transparent;
+                border: 1px solid var(--dividers);
+                border-radius: 8px;
+                padding: 8px 12px;
+                cursor: pointer;
+                color: var(--text-secondary);
+                font-size: 1.25rem;
+                transition: all 0.25s ease;
+            }
+
+            .nav-close:hover {
+                background: var(--bg-base);
+                border-color: var(--primary-accent);
+                color: var(--text-primary);
+            }
+
+            .nav-overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100vh;
+                background: rgba(44, 62, 80, 0.4);
+                z-index: 1000;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+
+            .nav-overlay.active {
+                display: block;
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .header-content {
+                padding: 0 16px;
+            }
+
+            .top-bar {
+                padding: 16px 0;
+            }
+
+            .site-title {
+                font-size: 1.5rem;
+            }
+
+            .logo-image {
+                max-height: 48px;
+            }
+
+            .breadcrumb-container {
+                padding: 12px 0;
+            }
+
+            .main-nav {
+                width: 100%;
+                right: -100%;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+<div class="header-container">
+<div class="header-content">
+<div class="top-bar">
+<div class="logo-container">
+<h1 class="site-title">Rain Drop</h1>
+</div>
+<button aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle" id="navToggle" type="button">
+<i class="fas fa-bars"></i>
+</button>
+<nav class="main-nav" id="mainNav">
+<button aria-label="Close navigation" class="nav-close" id="navClose">
+<i class="fas fa-times"></i>
+</button>
+<a class="nav-link" href="posts.html">Posts</a>
+<a class="nav-link" href="about.html">About</a>
+<a class="nav-link" href="contacts.html">Contacts</a>
+<a class="nav-link" href="privacy_policy.html">Privacy Policy</a>
+</nav>
+</div>
+</div>
+</div>
+<div class="nav-overlay" id="navOverlay"></div>
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navToggle = document.getElementById('navToggle');
+            const navClose = document.getElementById('navClose');
+            const mainNav = document.getElementById('mainNav');
+            const navOverlay = document.getElementById('navOverlay');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            function openNav() {
+                mainNav.classList.add('active');
+                navOverlay.classList.add('active');
+                document.body.style.overflow = 'hidden';
+                navToggle.setAttribute('aria-expanded', 'true');
+            }
+
+            function closeNav() {
+                mainNav.classList.remove('active');
+                navOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+                navToggle.setAttribute('aria-expanded', 'false');
+            }
+
+            if (navToggle) {
+                navToggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+                    if (isExpanded) {
+                        closeNav();
+                    } else {
+                        openNav();
+                    }
+                });
+            }
+
+            if (navClose) {
+                navClose.addEventListener('click', closeNav);
+            }
+
+            if (navOverlay) {
+                navOverlay.addEventListener('click', closeNav);
+            }
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    if (window.innerWidth <= 992) {
+                        closeNav();
+                    }
+                });
+            });
+
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active');
+                }
+            });
+
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 992) {
+                    closeNav();
+                }
+            });
+
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && mainNav.classList.contains('active')) {
+                    closeNav();
+                }
+            });
+        });
+    </script>
+</header>
+</header>
+<div style="background: linear-gradient(135deg, #FAFBFC 0%, #F5F7FA 100%); padding: 80px 0 60px 0; position: relative; overflow: hidden;">
+<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: linear-gradient(0deg, #E8ECEF 1px, transparent 1px), linear-gradient(90deg, #E8ECEF 1px, transparent 1px); background-size: 32px 32px; background-position: -1px -1px; opacity: 0.5;"></div>
+<div class="container" style="position: relative; z-index: 2; max-width: 1200px; margin: 0 auto; padding: 0 24px;">
+<div class="row align-items-center">
+<div class="col-lg-7 mb-4 mb-lg-0">
+<div style="animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;">
+<div style="display: inline-block; background: rgba(168, 199, 231, 0.12); color: #6B7C8C; padding: 8px 16px; border-radius: 20px; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 24px; border: 1px solid rgba(168, 199, 231, 0.2);">
+<i class="fas fa-map-marked-alt" style="margin-right: 8px; color: #A8C7E7;"></i>Digital Cartography</div>
+<h1 style="font-family: 'DM Sans', 'Inter', sans-serif; font-size: 2.5rem; font-weight: 300; letter-spacing: -0.02em; line-height: 1.2; color: #2C3E50; margin-bottom: 24px;">Mapping the Landscape of<span style="background: linear-gradient(135deg, #A8C7E7 0%, #D4B5E8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 400;">Thought</span>
+</h1>
+<h2 style="font-family: 'Inter', sans-serif; font-size: 1.125rem; font-weight: 400; letter-spacing: 0.01em; line-height: 1.7; color: #6B7C8C; margin-bottom: 32px; max-width: 560px;">Explore the intersection of digital cartography, knowledge mapping, and information architecture. Discover how we navigate, organize, and visualize the complex terrain of modern information flow.</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 40px;">
+<button onclick="window.location.href='posts.html'" style="background: linear-gradient(135deg, #A8C7E7 0%, #9BB8D9 100%); color: #FFFFFF; border: none; border-radius: 8px; padding: 14px 28px; font-weight: 500; letter-spacing: 0.02em; font-size: 1rem; box-shadow: 0 2px 8px rgba(168, 199, 231, 0.25); transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; font-family: 'Inter', sans-serif;">
+<i class="fas fa-compass" style="margin-right: 8px;"></i>Explore Articles</button>
+<button onclick="openSubscribeModal()" style="background: transparent; color: #6B7C8C; border: 1px solid #DFE3E8; border-radius: 8px; padding: 14px 28px; font-weight: 500; font-size: 1rem; transition: all 0.25s ease; cursor: pointer; font-family: 'Inter', sans-serif;">
+<i class="fas fa-envelope" style="margin-right: 8px;"></i>Subscribe to Updates</button>
+<button onclick="window.location.href='about.html'" style="background: transparent; color: #6B7C8C; border: 1px solid #DFE3E8; border-radius: 8px; padding: 14px 28px; font-weight: 500; font-size: 1rem; transition: all 0.25s ease; cursor: pointer; font-family: 'Inter', sans-serif;">
+<i class="fas fa-info-circle" style="margin-right: 8px;"></i>About Us
+                        </button>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 32px; padding-top: 24px; border-top: 1px solid #E8ECEF;">
+<div>
+<div style="font-size: 1.5rem; font-weight: 400; color: #A8C7E7; margin-bottom: 4px;">150+</div>
+<div style="font-size: 0.875rem; color: #9BA8B5; letter-spacing: 0.02em;">Articles Published</div>
+</div>
+<div>
+<div style="font-size: 1.5rem; font-weight: 400; color: #D4B5E8; margin-bottom: 4px;">25K+</div>
+<div style="font-size: 0.875rem; color: #9BA8B5; letter-spacing: 0.02em;">Monthly Readers</div>
+</div>
+<div>
+<div style="font-size: 1.5rem; font-weight: 400; color: #B8E6D5; margin-bottom: 4px;">12</div>
+<div style="font-size: 0.875rem; color: #9BA8B5; letter-spacing: 0.02em;">Topic Categories</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-5">
+<div style="position: relative; animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards; animation-delay: 0.2s; opacity: 0;">
+<div style="background: #FFFFFF; border: 1px solid #E8ECEF; border-radius: 12px; padding: 32px; box-shadow: 0 8px 24px rgba(168, 199, 231, 0.15), 0 4px 8px rgba(44, 62, 80, 0.08); position: relative;">
+<img alt="Abstract visualization of digital knowledge mapping showing interconnected nodes and pathways representing information flow and thought architecture in a minimalist cartographic style" src="images/image_0_index.png" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 24px; display: block; opacity: 1;"/>
+<div style="display: flex; gap: 12px; margin-bottom: 16px;">
+<div style="flex: 1; background: rgba(168, 199, 231, 0.1); border: 1px solid rgba(168, 199, 231, 0.2); border-radius: 8px; padding: 16px; text-align: center;">
+<i class="fas fa-route" style="font-size: 1.5rem; color: #A8C7E7; margin-bottom: 8px;"></i>
+<div style="font-size: 0.75rem; color: #6B7C8C; font-weight: 500; letter-spacing: 0.05em;">Navigation</div>
+</div>
+<div style="flex: 1; background: rgba(212, 181, 232, 0.1); border: 1px solid rgba(212, 181, 232, 0.2); border-radius: 8px; padding: 16px; text-align: center;">
+<i class="fas fa-project-diagram" style="font-size: 1.5rem; color: #D4B5E8; margin-bottom: 8px;"></i>
+<div style="font-size: 0.75rem; color: #6B7C8C; font-weight: 500; letter-spacing: 0.05em;">Mapping</div>
+</div>
+<div style="flex: 1; background: rgba(184, 230, 213, 0.1); border: 1px solid rgba(184, 230, 213, 0.2); border-radius: 8px; padding: 16px; text-align: center;">
+<i class="fas fa-lightbulb" style="font-size: 1.5rem; color: #B8E6D5; margin-bottom: 8px;"></i>
+<div style="font-size: 0.75rem; color: #6B7C8C; font-weight: 500; letter-spacing: 0.05em;">Insights</div>
+</div>
+</div>
+<div style="position: absolute; top: -12px; right: -12px; width: 80px; height: 80px; background: linear-gradient(135deg, #B8E6D5 0%, #A8C7E7 100%); border-radius: 50%; opacity: 0.15; animation: pulseGlow 3s ease-in-out infinite;"></div>
+<div style="position: absolute; bottom: -8px; left: -8px; width: 60px; height: 60px; background: linear-gradient(135deg, #D4B5E8 0%, #A8C7E7 100%); border-radius: 50%; opacity: 0.12; animation: pulseGlow 3s ease-in-out infinite; animation-delay: 1s;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row mt-5 pt-4">
+<div class="col-12">
+<div style="background: rgba(168, 199, 231, 0.08); border: 1px solid rgba(168, 199, 231, 0.15); border-radius: 12px; padding: 24px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+<div style="flex: 1; min-width: 250px;">
+<h3 style="font-size: 1rem; font-weight: 500; color: #2C3E50; margin-bottom: 8px; letter-spacing: 0.01em;">Featured Topics</h3>
+<p style="font-size: 0.875rem; color: #6B7C8C; margin: 0; line-height: 1.5;">Explore our curated collection of knowledge mapping techniques, information architecture principles, and digital cartography insights.</p>
+</div>
+<div style="display: flex; gap: 12px; flex-wrap: wrap;">
+<span onmouseout="this.style.borderColor='#E8ECEF'; this.style.color='#6B7C8C';" onmouseover="this.style.borderColor='#A8C7E7'; this.style.color='#2C3E50';" style="background: #FFFFFF; color: #6B7C8C; padding: 8px 16px; border-radius: 20px; font-size: 0.875rem; border: 1px solid #E8ECEF; transition: all 0.25s ease; cursor: pointer;">
+<i class="fas fa-tag" style="margin-right: 6px; font-size: 0.75rem;"></i>Knowledge Mapping</span>
+<span onmouseout="this.style.borderColor='#E8ECEF'; this.style.color='#6B7C8C';" onmouseover="this.style.borderColor='#A8C7E7'; this.style.color='#2C3E50';" style="background: #FFFFFF; color: #6B7C8C; padding: 8px 16px; border-radius: 20px; font-size: 0.875rem; border: 1px solid #E8ECEF; transition: all 0.25s ease; cursor: pointer;">
+<i class="fas fa-tag" style="margin-right: 6px; font-size: 0.75rem;"></i>Information Flow</span>
+<span onmouseout="this.style.borderColor='#E8ECEF'; this.style.color='#6B7C8C';" onmouseover="this.style.borderColor='#A8C7E7'; this.style.color='#2C3E50';" style="background: #FFFFFF; color: #6B7C8C; padding: 8px 16px; border-radius: 20px; font-size: 0.875rem; border: 1px solid #E8ECEF; transition: all 0.25s ease; cursor: pointer;">
+<i class="fas fa-tag" style="margin-right: 6px; font-size: 0.75rem;"></i>Thought Architecture</span>
+<span onmouseout="this.style.borderColor='#E8ECEF'; this.style.color='#6B7C8C';" onmouseover="this.style.borderColor='#A8C7E7'; this.style.color='#2C3E50';" style="background: #FFFFFF; color: #6B7C8C; padding: 8px 16px; border-radius: 20px; font-size: 0.875rem; border: 1px solid #E8ECEF; transition: all 0.25s ease; cursor: pointer;">
+<i class="fas fa-tag" style="margin-right: 6px; font-size: 0.75rem;"></i>Raindrop IO
+                        </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="subscribeModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44, 62, 80, 0.6); backdrop-filter: blur(4px); z-index: 9999; align-items: center; justify-content: center; animation: fadeIn 0.3s ease;">
+<div style="background: #FFFFFF; border-radius: 16px; padding: 40px; max-width: 500px; width: 90%; box-shadow: 0 20px 60px rgba(44, 62, 80, 0.3); position: relative; animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);">
+<button onclick="closeSubscribeModal()" onmouseout="this.style.background='transparent'; this.style.color='#9BA8B5';" onmouseover="this.style.background='#F5F7FA'; this.style.color='#2C3E50';" style="position: absolute; top: 16px; right: 16px; background: transparent; border: none; color: #9BA8B5; font-size: 1.5rem; cursor: pointer; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: 50%; transition: all 0.2s ease;">
+<i class="fas fa-times"></i>
+</button>
+<div style="text-align: center; margin-bottom: 32px;">
+<div style="width: 64px; height: 64px; background: linear-gradient(135deg, #A8C7E7 0%, #D4B5E8 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; box-shadow: 0 4px 16px rgba(168, 199, 231, 0.3);">
+<i class="fas fa-envelope-open-text" style="font-size: 1.75rem; color: #FFFFFF;"></i>
+</div>
+<h3 style="font-size: 1.5rem; font-weight: 400; color: #2C3E50; margin-bottom: 8px; font-family: 'DM Sans', sans-serif;">Stay Connected</h3>
+<p style="font-size: 0.875rem; color: #6B7C8C; line-height: 1.6; margin: 0;">Subscribe to receive the latest insights on digital cartography, knowledge mapping, and information architecture directly in your inbox.</p>
+</div>
+<form id="subscribeForm" onsubmit="handleSubscribe(event)">
+<div style="margin-bottom: 16px;">
+<label style="display: block; font-size: 0.875rem; font-weight: 500; color: #2C3E50; margin-bottom: 8px; letter-spacing: 0.01em;">Your Name</label>
+<input onblur="this.style.borderColor='#E8ECEF'; this.style.boxShadow='none'; this.style.background='#FAFBFC';" onfocus="this.style.borderColor='#A8C7E7'; this.style.boxShadow='0 0 0 3px rgba(168, 199, 231, 0.12)'; this.style.background='#FFFFFF';" placeholder="Enter your name" required="" style="width: 100%; background: #FAFBFC; border: 1px solid #E8ECEF; border-radius: 8px; padding: 12px 16px; font-size: 1rem; color: #2C3E50; transition: all 0.25s ease; font-family: 'Inter', sans-serif;" type="text"/>
+</div>
+<div style="margin-bottom: 24px;">
+<label style="display: block; font-size: 0.875rem; font-weight: 500; color: #2C3E50; margin-bottom: 8px; letter-spacing: 0.01em;">Email Address</label>
+<input onblur="this.style.borderColor='#E8ECEF'; this.style.boxShadow='none'; this.style.background='#FAFBFC';" onfocus="this.style.borderColor='#A8C7E7'; this.style.boxShadow='0 0 0 3px rgba(168, 199, 231, 0.12)'; this.style.background='#FFFFFF';" placeholder="your@email.com" required="" style="width: 100%; background: #FAFBFC; border: 1px solid #E8ECEF; border-radius: 8px; padding: 12px 16px; font-size: 1rem; color: #2C3E50; transition: all 0.25s ease; font-family: 'Inter', sans-serif;" type="email"/>
+</div>
+<button onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(168, 199, 231, 0.25)';" onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 4px 16px rgba(168, 199, 231, 0.35)';" style="width: 100%; background: linear-gradient(135deg, #A8C7E7 0%, #9BB8D9 100%); color: #FFFFFF; border: none; border-radius: 8px; padding: 14px 24px; font-weight: 500; letter-spacing: 0.02em; font-size: 1rem; box-shadow: 0 2px 8px rgba(168, 199, 231, 0.25); transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; font-family: 'Inter', sans-serif;" type="submit">
+<i class="fas fa-paper-plane" style="margin-right: 8px;"></i>Subscribe Now
+            </button>
+</form>
+<p style="font-size: 0.75rem; color: #9BA8B5; text-align: center; margin-top: 16px; line-height: 1.5;">We respect your privacy. Unsubscribe at any time.</p>
+</div>
+</div>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulseGlow {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.15;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.25;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+    
+    h2 {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.75rem !important;
+    }
+    
+    button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+</style>
+<script>
+function openSubscribeModal() {
+    const modal = document.getElementById('subscribeModal');
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+}
+
+function closeSubscribeModal() {
+    const modal = document.getElementById('subscribeModal');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+function handleSubscribe(event) {
+    event.preventDefault();
+    alert('Thank you for subscribing! You will receive our latest updates on digital cartography and knowledge mapping.');
+    closeSubscribeModal();
+    document.getElementById('subscribeForm').reset();
+}
+
+window.onclick = function(event) {
+    const modal = document.getElementById('subscribeModal');
+    if (event.target === modal) {
+        closeSubscribeModal();
+    }
+}
+</script>
+<div class="container py-5">
+<div class="row g-4">
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card h-100 border-0" style="background: #FFFFFF; border: 1px solid #E8ECEF; border-radius: 12px; box-shadow: 0 2px 8px rgba(44, 62, 80, 0.04), 0 1px 2px rgba(44, 62, 80, 0.06); transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); overflow: hidden;">
+<img alt="Abstract visualization of interconnected nodes and pathways representing digital mind mapping, with flowing lines connecting thought bubbles in soft periwinkle blue against a clean white background, symbolizing the transformation of abstract concepts into navigable visual landscapes" class="card-img-top" src="images/image_1_index.png" style="height: 240px; object-fit: cover;"/>
+<div class="card-body d-flex flex-column" style="padding: 24px;">
+<div class="mb-2">
+<span style="font-size: 0.75rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #9BA8B5; font-family: 'JetBrains Mono', monospace;">September 12, 2025</span>
+</div>
+<h3 class="card-title mb-3" style="font-size: 1.25rem; font-weight: 500; letter-spacing: 0; line-height: 1.4; color: #2C3E50; font-family: 'DM Sans', 'Inter', sans-serif;">Digital Mind Mapping Tools</h3>
+<p class="card-text mb-4" style="font-size: 1rem; font-weight: 400; letter-spacing: 0.01em; line-height: 1.6; color: #6B7C8C; flex-grow: 1;">Explore how digital mind mapping tools transform abstract concepts into navigable visual landscapes. This article examines the cognitive benefits of spatial thinking and demonstrates practical techniques for organizing research, brainstorming sessions, and knowledge management using modern cartographic principles applied to intellectual work.</p>
+<a class="btn w-100" href="posts_1.html" style="background: linear-gradient(135deg, #A8C7E7 0%, #9BB8D9 100%); color: #FFFFFF; border: none; border-radius: 8px; padding: 12px 24px; font-weight: 500; letter-spacing: 0.02em; box-shadow: 0 2px 8px rgba(168, 199, 231, 0.25); transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); text-decoration: none; display: inline-block; text-align: center;">Read Article</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card h-100 border-0" style="background: #FFFFFF; border: 1px solid #E8ECEF; border-radius: 12px; box-shadow: 0 2px 8px rgba(44, 62, 80, 0.04), 0 1px 2px rgba(44, 62, 80, 0.06); transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); overflow: hidden;">
+<img alt="Artistic representation of neural pathways and brain synapses forming map-like structures in gentle lavender tones, illustrating the connection between spatial memory and information architecture with glowing nodes representing memory formation and knowledge domains" class="card-img-top" src="images/image_2_index.png" style="height: 240px; object-fit: cover;"/>
+<div class="card-body d-flex flex-column" style="padding: 24px;">
+<div class="mb-2">
+<span style="font-size: 0.75rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #9BA8B5; font-family: 'JetBrains Mono', monospace;">August 28, 2025</span>
+</div>
+<h3 class="card-title mb-3" style="font-size: 1.25rem; font-weight: 500; letter-spacing: 0; line-height: 1.4; color: #2C3E50; font-family: 'DM Sans', 'Inter', sans-serif;">Neuroscience of Spatial Memory</h3>
+<p class="card-text mb-4" style="font-size: 1rem; font-weight: 400; letter-spacing: 0.01em; line-height: 1.6; color: #6B7C8C; flex-grow: 1;">A deep dive into the neuroscience of spatial memory and its implications for information architecture. This piece explores how our brains create mental maps of knowledge domains, drawing parallels between physical navigation and conceptual understanding, with insights for educators, designers, and knowledge workers.</p>
+<a class="btn w-100" href="posts_2.html" style="background: linear-gradient(135deg, #A8C7E7 0%, #9BB8D9 100%); color: #FFFFFF; border: none; border-radius: 8px; padding: 12px 24px; font-weight: 500; letter-spacing: 0.02em; box-shadow: 0 2px 8px rgba(168, 199, 231, 0.25); transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); text-decoration: none; display: inline-block; text-align: center;">Read Article</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card h-100 border-0" style="background: #FFFFFF; border: 1px solid #E8ECEF; border-radius: 12px; box-shadow: 0 2px 8px rgba(44, 62, 80, 0.04), 0 1px 2px rgba(44, 62, 80, 0.06); transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); overflow: hidden;">
+<img alt="Timeline visualization showing the evolution of visual thinking tools from ancient hand-drawn diagrams and manuscripts to modern digital platforms, rendered in muted mint green with historical artifacts transitioning into contemporary interface elements, representing the progression of visual reasoning methods" class="card-img-top" src="images/image_3_index.png" style="height: 240px; object-fit: cover;"/>
+<div class="card-body d-flex flex-column" style="padding: 24px;">
+<div class="mb-2">
+<span style="font-size: 0.75rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #9BA8B5; font-family: 'JetBrains Mono', monospace;">October 15, 2025</span>
+</div>
+<h3 class="card-title mb-3" style="font-size: 1.25rem; font-weight: 500; letter-spacing: 0; line-height: 1.4; color: #2C3E50; font-family: 'DM Sans', 'Inter', sans-serif;">Historical Development of Visual Thinking</h3>
+<p class="card-text mb-4" style="font-size: 1rem; font-weight: 400; letter-spacing: 0.01em; line-height: 1.6; color: #6B7C8C; flex-grow: 1;">Trace the historical development of visual thinking tools from ancient diagrams to contemporary digital platforms. This retrospective examines how technology has enhanced our ability to represent complex relationships, featuring case studies from philosophy, science, and creative industries that demonstrate the enduring power of visual reasoning.</p>
+<a class="btn w-100" href="posts_3.html" style="background: linear-gradient(135deg, #A8C7E7 0%, #9BB8D9 100%); color: #FFFFFF; border: none; border-radius: 8px; padding: 12px 24px; font-weight: 500; letter-spacing: 0.02em; box-shadow: 0 2px 8px rgba(168, 199, 231, 0.25); transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); text-decoration: none; display: inline-block; text-align: center;">Read Article</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style>
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(168, 199, 231, 0.15), 0 4px 8px rgba(44, 62, 80, 0.08), 0 0 0 1px rgba(168, 199, 231, 0.2);
+    border-color: #A8C7E7;
+  }
+  
+  .btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(168, 199, 231, 0.35), 0 0 0 3px rgba(168, 199, 231, 0.15);
+    background: linear-gradient(135deg, #9BB8D9 0%, #8EAAC8 100%);
+  }
+  
+  .card {
+    animation: fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+  
+  .card:nth-child(1) {
+    animation-delay: 0.1s;
+    opacity: 0;
+  }
+  
+  .card:nth-child(2) {
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+  
+  .card:nth-child(3) {
+    animation-delay: 0.3s;
+    opacity: 0;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .card {
+      animation: none;
+      opacity: 1;
+    }
+    
+    .card:hover,
+    .btn:hover {
+      transform: none;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-body {
+      padding: 16px;
+    }
+    
+    .card-title {
+      font-size: 1.125rem;
+    }
+    
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.card');
+    
+    cards.forEach(card => {
+      const btn = card.querySelector('.btn');
+      
+      card.addEventListener('mouseenter', function() {
+        this.style.transition = 'all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)';
+      });
+      
+      card.addEventListener('mouseleave', function() {
+        this.style.transition = 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+      });
+      
+      btn.addEventListener('click', function(e) {
+        const ripple = document.createElement('span');
+        ripple.style.position = 'absolute';
+        ripple.style.width = '20px';
+        ripple.style.height = '20px';
+        ripple.style.borderRadius = '50%';
+        ripple.style.background = 'rgba(255, 255, 255, 0.6)';
+        ripple.style.transform = 'scale(0)';
+        ripple.style.animation = 'rippleEffect 0.6s ease-out';
+        ripple.style.pointerEvents = 'none';
+        
+        const rect = this.getBoundingClientRect();
+        ripple.style.left = (e.clientX - rect.left - 10) + 'px';
+        ripple.style.top = (e.clientY - rect.top - 10) + 'px';
+        
+        this.style.position = 'relative';
+        this.style.overflow = 'hidden';
+        this.appendChild(ripple);
+        
+        setTimeout(() => ripple.remove(), 600);
+      });
+    });
+    
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes rippleEffect {
+        to {
+          transform: scale(4);
+          opacity: 0;
+        }
+      }
+    `;
+    document.head.appendChild(style);
+  });
+</script>
+</div>
+<footer style="width: 100%; z-index: 1000;">
+<footer style="background: #FFFFFF; border-top: 1px solid #E8ECEF; margin-top: 64px;">
+<div class="container" style="max-width: 1200px; padding: 48px 24px 24px;">
+<div class="row" style="row-gap: 32px;">
+<div class="col-lg-4 col-md-6">
+<div style="margin-bottom: 24px;">
+<h3 style="font-family: 'DM Sans', 'Inter', sans-serif; font-size: 1.5rem; font-weight: 400; color: #2C3E50; margin-bottom: 16px; letter-spacing: -0.01em;">Rain Drop</h3>
+<p style="font-size: 0.875rem; color: #6B7C8C; line-height: 1.6; letter-spacing: 0.01em; margin-bottom: 16px;">Mapping the landscape of thought through digital cartography and knowledge architecture.</p>
+</div>
+<div itemscope="" itemtype="http://schema.org/Organization">
+<meta content="Rain Drop" itemprop="name"/>
+<meta content="https://Rain Drop" itemprop="url"/>
+<div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+<p style="font-size: 0.875rem; color: #6B7C8C; line-height: 1.6; margin-bottom: 8px;">
+<i class="fas fa-map-marker-alt" style="color: #A8C7E7; margin-right: 8px; width: 16px;"></i>
+<span itemprop="streetAddress">742 Evergreen Terrace</span><br/>
+<span style="margin-left: 24px;"><span itemprop="addressLocality">Springfield</span>, <span itemprop="addressRegion">IL</span> <span itemprop="postalCode">62704</span></span>
+</p>
+</div>
+<p style="font-size: 0.875rem; color: #6B7C8C; line-height: 1.6; margin-bottom: 8px;">
+<i class="fas fa-phone" style="color: #A8C7E7; margin-right: 8px; width: 16px;"></i>
+<span itemprop="telephone">+1 (217) 555-0147</span>
+</p>
+<p style="font-size: 0.875rem; color: #6B7C8C; line-height: 1.6; margin-bottom: 0;">
+<i class="fas fa-envelope" style="color: #A8C7E7; margin-right: 8px; width: 16px;"></i>
+<span itemprop="email">contact@raindrop-cartography.com</span>
+</p>
+</div>
+</div>
+<div class="col-lg-2 col-md-6 col-6">
+<h4 style="font-family: 'DM Sans', 'Inter', sans-serif; font-size: 0.75rem; font-weight: 500; color: #2C3E50; margin-bottom: 16px; letter-spacing: 0.08em; text-transform: uppercase;">Navigation</h4>
+<nav>
+<ul style="list-style: none; padding: 0; margin: 0;">
+<li style="margin-bottom: 12px;">
+<a href="posts.html" style="font-size: 0.875rem; color: #6B7C8C; text-decoration: none; border-bottom: 1px solid transparent; transition: all 0.2s ease; display: inline-block;">Posts</a>
+</li>
+<li style="margin-bottom: 12px;">
+<a href="about.html" style="font-size: 0.875rem; color: #6B7C8C; text-decoration: none; border-bottom: 1px solid transparent; transition: all 0.2s ease; display: inline-block;">About</a>
+</li>
+<li style="margin-bottom: 12px;">
+<a href="contacts.html" style="font-size: 0.875rem; color: #6B7C8C; text-decoration: none; border-bottom: 1px solid transparent; transition: all 0.2s ease; display: inline-block;">Contacts</a>
+</li>
+<li style="margin-bottom: 12px;">
+<a href="privacy_policy.html" style="font-size: 0.875rem; color: #6B7C8C; text-decoration: none; border-bottom: 1px solid transparent; transition: all 0.2s ease; display: inline-block;">Privacy Policy</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="col-lg-3 col-md-6 col-6">
+<h4 style="font-family: 'DM Sans', 'Inter', sans-serif; font-size: 0.75rem; font-weight: 500; color: #2C3E50; margin-bottom: 16px; letter-spacing: 0.08em; text-transform: uppercase;">Connect</h4>
+<div style="display: flex; gap: 12px; flex-wrap: wrap;">
+<a aria-label="Twitter" href="https://twitter.com" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FAFBFC; border: 1px solid #E8ECEF; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #6B7C8C; text-decoration: none; transition: all 0.25s ease;" target="_blank">
+<i class="fab fa-twitter" style="font-size: 1.125rem;"></i>
+</a>
+<a aria-label="Facebook" href="https://facebook.com" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FAFBFC; border: 1px solid #E8ECEF; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #6B7C8C; text-decoration: none; transition: all 0.25s ease;" target="_blank">
+<i class="fab fa-facebook-f" style="font-size: 1.125rem;"></i>
+</a>
+<a aria-label="LinkedIn" href="https://linkedin.com" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FAFBFC; border: 1px solid #E8ECEF; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #6B7C8C; text-decoration: none; transition: all 0.25s ease;" target="_blank">
+<i class="fab fa-linkedin-in" style="font-size: 1.125rem;"></i>
+</a>
+<a aria-label="GitHub" href="https://github.com" rel="noopener noreferrer" style="width: 40px; height: 40px; background: #FAFBFC; border: 1px solid #E8ECEF; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #6B7C8C; text-decoration: none; transition: all 0.25s ease;" target="_blank">
+<i class="fab fa-github" style="font-size: 1.125rem;"></i>
+</a>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<h4 style="font-family: 'DM Sans', 'Inter', sans-serif; font-size: 0.75rem; font-weight: 500; color: #2C3E50; margin-bottom: 16px; letter-spacing: 0.08em; text-transform: uppercase;">Newsletter</h4>
+<p style="font-size: 0.875rem; color: #6B7C8C; line-height: 1.5; margin-bottom: 16px;">Stay updated with our latest insights on knowledge mapping.</p>
+<form id="newsletter-form" style="position: relative;">
+<div style="position: relative;">
+<input aria-label="Email address" id="newsletter-email" placeholder="Enter your email" required="" style="width: 100%; background: #FFFFFF; border: 1px solid #E8ECEF; border-radius: 8px; padding: 12px 16px; font-size: 1rem; color: #2C3E50; transition: all 0.25s ease;" type="email"/>
+<div id="email-error" style="display: none; font-size: 0.75rem; color: #E74C3C; margin-top: 8px; letter-spacing: 0.02em;"></div>
+</div>
+<button id="newsletter-submit" style="width: 100%; margin-top: 12px; background: linear-gradient(135deg, #A8C7E7 0%, #9BB8D9 100%); color: #FFFFFF; border: none; border-radius: 8px; padding: 12px 24px; font-weight: 500; letter-spacing: 0.02em; box-shadow: 0 2px 8px rgba(168, 199, 231, 0.25); transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; font-size: 0.875rem;" type="submit">
+            Subscribe
+          </button>
+<div id="newsletter-success" style="display: none; margin-top: 16px; padding: 16px; background: #FFFFFF; border: 1px solid #B8E6D5; border-radius: 8px; box-shadow: 0 0 0 4px rgba(184, 230, 213, 0.1), 0 0 20px rgba(184, 230, 213, 0.15); animation: fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;">
+<div style="display: flex; align-items: center; gap: 12px;">
+<div style="width: 32px; height: 32px; background: linear-gradient(135deg, #B8E6D5 0%, #A5D9C5 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+<i class="fas fa-check" style="color: #FFFFFF; font-size: 0.875rem;"></i>
+</div>
+<div>
+<p style="font-size: 0.875rem; font-weight: 500; color: #2C3E50; margin: 0; letter-spacing: 0.01em;">Successfully subscribed!</p>
+<p style="font-size: 0.75rem; color: #6B7C8C; margin: 4px 0 0 0;">Thank you for joining our community.</p>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div style="height: 1px; background: linear-gradient(90deg, transparent 0%, #E8ECEF 20%, #A8C7E7 50%, #E8ECEF 80%, transparent 100%); box-shadow: 0 0 4px rgba(168, 199, 231, 0.2); margin: 32px 0 24px;"></div>
+<div class="row align-items-center" style="row-gap: 16px;">
+<div class="col-md-6 text-center text-md-start">
+<p style="font-size: 0.875rem; color: #9BA8B5; margin: 0; letter-spacing: 0.01em;">© 2025 Rain Drop. All rights reserved.</p>
+</div>
+<div class="col-md-6 text-center text-md-end">
+<p style="font-size: 0.875rem; color: #9BA8B5; margin: 0; letter-spacing: 0.01em;">
+          Crafted with <span style="color: #A8C7E7;">thoughtful precision</span>
+</p>
+</div>
+</div>
+</div>
+<style>
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% {
+        box-shadow: 0 0 0 0 rgba(168, 199, 231, 0.15), 0 4px 12px rgba(44, 62, 80, 0.08);
+      }
+      50% {
+        box-shadow: 0 0 0 6px rgba(168, 199, 231, 0.08), 0 4px 16px rgba(168, 199, 231, 0.2);
+      }
+    }
+
+    footer a:hover {
+      color: #A8C7E7;
+      border-bottom-color: rgba(168, 199, 231, 0.4);
+    }
+
+    footer a[style*="width: 40px"]:hover {
+      background: #FFFFFF;
+      border-color: #A8C7E7;
+      color: #A8C7E7;
+      box-shadow: 0 0 0 3px rgba(168, 199, 231, 0.08);
+      transform: translateY(-2px);
+    }
+
+    #newsletter-email:focus {
+      outline: none;
+      border-color: #A8C7E7;
+      box-shadow: 0 0 0 3px rgba(168, 199, 231, 0.12), 0 2px 8px rgba(168, 199, 231, 0.08);
+    }
+
+    #newsletter-submit:hover:not(:disabled) {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 16px rgba(168, 199, 231, 0.35), 0 0 0 3px rgba(168, 199, 231, 0.15);
+      background: linear-gradient(135deg, #9BB8D9 0%, #8EAAC8 100%);
+    }
+
+    #newsletter-submit:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    @media (max-width: 576px) {
+      footer .container {
+        padding: 32px 16px 16px;
+      }
+      
+      footer h3 {
+        font-size: 1.35rem;
+      }
+      
+      footer h4 {
+        font-size: 0.7rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('newsletter-form');
+      const emailInput = document.getElementById('newsletter-email');
+      const submitButton = document.getElementById('newsletter-submit');
+      const successMessage = document.getElementById('newsletter-success');
+      const errorMessage = document.getElementById('email-error');
+      let isSubmitting = false;
+
+      function validateEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+      }
+
+      function showError(message) {
+        errorMessage.textContent = message;
+        errorMessage.style.display = 'block';
+        emailInput.style.borderColor = '#E74C3C';
+        emailInput.style.boxShadow = '0 0 0 3px rgba(231, 76, 60, 0.12)';
+      }
+
+      function hideError() {
+        errorMessage.style.display = 'none';
+        emailInput.style.borderColor = '#E8ECEF';
+        emailInput.style.boxShadow = 'none';
+      }
+
+      emailInput.addEventListener('input', function() {
+        if (errorMessage.style.display === 'block') {
+          hideError();
+        }
+      });
+
+      emailInput.addEventListener('focus', function() {
+        if (successMessage.style.display === 'block') {
+          successMessage.style.display = 'none';
+          emailInput.value = '';
+        }
+      });
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        if (isSubmitting) {
+          return;
+        }
+
+        const email = emailInput.value.trim();
+
+        if (!email) {
+          showError('Please enter your email address');
+          return;
+        }
+
+        if (!validateEmail(email)) {
+          showError('Please enter a valid email address');
+          return;
+        }
+
+        hideError();
+        isSubmitting = true;
+        submitButton.disabled = true;
+        submitButton.textContent = 'Subscribing...';
+        submitButton.style.background = 'linear-gradient(135deg, #9BA8B5 0%, #8A96A3 100%)';
+
+        setTimeout(function() {
+          emailInput.style.display = 'none';
+          submitButton.style.display = 'none';
+          successMessage.style.display = 'block';
+          
+          setTimeout(function() {
+            successMessage.style.animation = 'pulseGlow 2s ease-in-out infinite';
+          }, 500);
+
+          setTimeout(function() {
+            isSubmitting = false;
+            submitButton.disabled = false;
+            submitButton.textContent = 'Subscribe';
+            submitButton.style.background = 'linear-gradient(135deg, #A8C7E7 0%, #9BB8D9 100%)';
+            emailInput.style.display = 'block';
+            submitButton.style.display = 'block';
+          }, 5000);
+        }, 1000);
+      });
+    });
+  </script>
+</footer>
+</footer>
+</body>
+</html>
